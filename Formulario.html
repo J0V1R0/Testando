@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+<body><center>
+    <h2> Formulário para cadastro </h2>
+    <form name="frmCadastro" onSubmit="return confirmarCidade()" method="post"> 
+        
+
+        Nome completo: <br>
+	    <input type="text" name="nome" id="nome"> <br>
+        CPF: <br>
+	    <input type="text" name="cpf" id="cpf"> <br>
+
+        
+
+        <p>Horario que você esteja livre<br> 
+            <input type="radio" name="horario" id="horario1" value="manha"> Manhã <br>
+            <input type="radio" name="horario" id="horario2" value="tarde"> Tarde <br>
+            <input type="radio" name="horario" id="horario3" value="noite"> Noite <br>
+        </p>
+
+        Estado em que você mora:
+        <select name="Estado" id="estado">
+			<option value="">---------------</option>
+			<option value="AC"> AC - Acre </option>
+			<option value="AL"> AL - Alagoas</option>
+			<option value="AP"> AP - Amapá</option>
+            <option value="AM"> AM - Amazonas</option>
+            <option value="BA"> BA - Bahia </option>
+            <option value="CE"> CE - Ceará</option>
+            <option value="ES"> ES - Espírito Santo</option>
+            <option value="GO"> GO - Goiás</option>
+            <option value="MA"> MA - Maranhão</option>
+            <option value="MT"> MT - Mato Grosso</option>
+            <option value="MS"> MS - Mato Grosso do Sul</option>
+            <option value="MG"> MG - Minas Gerais</option>
+            <option value="PA"> PA - Pará</option>
+            <option value="PB"> PB - Paraíba</option>
+            <option value="PR"> PR - Paraná</option>
+            <option value="PE"> PE - Pernambuco</option>
+            <option value="PI"> PI - Piauí</option>
+            <option value="RJ"> RJ - Rio de Janeiro</option>
+            <option value="RN"> RN - Rio Grande do Norte</option>
+            <option value="RS"> RS - Rio Grande do Sul</option>
+            <option value="RO"> RO - Rondônia</option>
+            <option value="RR"> RR - Roraima</option>
+            <option value="SC"> SC - Santa Catarina</option>
+            <option value="SP"> SP - São Paulo</option>
+            <option value="SE"> SE - Sergipe</option>
+            <option value="SC"> TO - Tocantins</option>
+            <option value="DF"> DF - Distrito Federal</option>
+		</select>
+        
+        
+        
+        
+        <p>Selecione as linguagem que você já trabalhou:
+            <br /> 
+            <input type="checkbox" name="linguagem" value="JavaScript" >  JavaScript<br>
+            <input type="checkbox" name="linguagem" value="C++" >  C++ <br>
+            <input type="checkbox" name="linguagem" value="PHP">  PHP <br>
+            <input type="checkbox" name="linguagem" value="Java" >  Java <br>
+            <input type="checkbox" name="linguagem" value="C#">  C# <br>
+            <input type="checkbox" name="linguagem" value="Phyton">  Phyton <br>
+            <input type="checkbox" name="linguagem" value="html">  html <br>
+            <br />
+            
+          </p>
+
+          
+
+          Escreva o seu email: <br>
+	        <input type="text" name="email" id="email"> <br> <br>
+
+            <input type="submit" value="Enviar"> <br> <br>
+         
+            Fale o por que você quer esse emprego:<br>
+            <textarea name="opiniao" id="opiniao" rows="6" cols="40"></textarea>
+            <br />
+
+    </form>
+    
+</center></body>
+</html>
